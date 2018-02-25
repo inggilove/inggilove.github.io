@@ -14,8 +14,7 @@ function findProductKey (title) {
   }
 };
 
-var base_url = 'http://35.200.40.38:3000';
-// var base_url = 'http://localhost:8080/stt';
+const base_url = 'http://35.200.40.38:8000/stt';
 
 var List = Vue.extend({
   template: '#product-list',
